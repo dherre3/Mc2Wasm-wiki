@@ -1,5 +1,6 @@
 # Translation Specification
 
+Work in progress...
 
 ## Arrays
 New interface needs to be defined since WebAssembly does not
