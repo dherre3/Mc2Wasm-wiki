@@ -20,3 +20,6 @@
  In Proceedings of the ACM international conference companion on Object oriented programming systems languages and applications companion (pp. 301-312). ACM.
 - Haas, Andreas, et al. _"Bringing the web up to speed with WebAssembly."_ 
 Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation. ACM, 2017.
+
+- Chris Lattner, Vikram Adve, "LLVM: A Compiler Framewrok for 
+Lifelong Program Analysis & Transformations." _CGO 2004_
