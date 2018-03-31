@@ -23,6 +23,8 @@ where arrays are passed by value. A use of the [Copy Array Semantics](#copy_sema
 algorithm will be used for this purposes. The reason for this is avoiding unnecessary copies of the
 array.
 
+
+
 Here are the array accesses in Matlab:
 ```
 a = ones(3,3)
@@ -110,7 +112,12 @@ that will grab the elements an copy them to a newly allocated array.
         is a stepping array, this would be bad to performance
     - Make a transformation of all array accesses to be a single array
       of accessed indices. 
-    - Make an array of arrays where every index of the indexing expression is an array on its own.  
+    - Make an array of arrays where every index of the indexing expression is an array on its own. 
+    - Figure out a low-level language padding works and how it affects performance.
+    - Create tests for all this functions to check the validity of them.
+    - Once the basic array core is created we can think about new array built-ins and operations
+      such as randn(), by importing the JavaScript Math.rand()
+      
 ## References
 
 - <a name="copy_semantics"></a>Copy Semantics 

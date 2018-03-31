@@ -13,4 +13,4 @@
 7. Figure out how to create the wasm AST, or whether we should be even creating
    one in the first place! Depends on how the stack-machine is interpreted and
    what is convenient. Probably will use JastAdd for this purposes and 
-8. Array accessing with colon operators 
+8. Array accessing with colon operators
